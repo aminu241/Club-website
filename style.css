@@ -1,0 +1,81 @@
+html {
+	font-size: 16px;
+}
+body {
+	margin: 0%;
+	background-color: pink;
+	border: 0%;
+}
+#navbar {
+	display: flex;
+	background-color: cadetblue;
+	width: 100%;
+	height: 3.125rem;
+}
+
+#navbar a {
+	margin: 1rem;
+	color: pink;
+	font-weight: bold;
+	font-size: 1.3rem;
+}
+
+#banner {
+	display: flex;
+	margin-top: 13rem;
+	width: 100%;
+	background-color: brown;
+	justify-content: center;
+	align-content: center;
+}
+
+#banner h1 {
+	font-size: 2.5rem;
+	color: pink;
+}
+
+#text-section {
+	margin-top: 18rem;
+	padding-left: 1rem;
+}
+#text-section p {
+	font-size: 1.2rem;
+}
+.flex-grid {
+	margin-top: 4rem;
+	display: inline-flex;
+	width: 100%;
+	height: 19rem;
+}
+.flex-grid div {
+	padding: 0rem 1rem;
+}
+.flex-grid img {
+	display: inline-block;
+	max-height: 100%;
+	max-width: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+}
+
+#quote-div {
+	background-color: darkcyan;
+	margin-top: 5rem;
+	padding: 1rem;
+	height: 20rem;
+}
+
+#quote-div #quote {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+#events {
+	display: flexbox;
+	text-align: center;
+	font-size: 3rem;
+}
+
+#events img {
+	height: 80rem;
+}
